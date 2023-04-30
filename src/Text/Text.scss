@@ -1,0 +1,48 @@
+.terra-text {
+  color: #fff;
+  width: fit-content;
+}
+
+.terra-text-heading {
+  font-family: 'Jaldi', sans-serif;
+  line-height: 1.2em;
+}
+
+.terra-text-body {
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1em;
+}
+
+.terra-text-gutter-bottom {
+  margin-bottom: .4em;
+}
+
+.terra-text-xLarge {
+  font-size: 96px;
+
+  @media screen and (max-width: 1000px) {
+    font-size: 64px;
+  }
+  @media screen and (max-width: 800px) {
+    font-size: 48px;
+  }
+}
+
+.terra-text-large {
+  font-size: 32px;
+
+  @media screen and (max-width: 1000px) {
+    font-size: 28px;
+  }
+  @media screen and (max-width: 800px) {
+    font-size: 24px;
+  }
+}
+
+.terra-text-normal {
+  font-size: 19px; // God forgive me...
+
+  @media screen and (max-width: 800px) {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,22 @@
+#social-button-github {
+  mask: url('./icon-GitHub.png') no-repeat;
+}
+
+#social-button-linkedin {
+  mask: url('./icon-LinkedIn.png') no-repeat;
+}
+
+#social-button-stackoverflow {
+  mask: url('./icon-StackOverflow.png') no-repeat;
+}
+
+.social-button {
+  width: 36px;
+  height: 36px;
+  background: white;
+  transition: transform .1s ease;
+}
+
+.social-button:hover {
+  transform: scale(1.05);
+}

@@ -13,14 +13,4 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Jaldi', sans-serif;
-  width: fit-content;
-}
-
-h1, h2 {
-  @extend .spicy-text;
-}
-
-p {
-  font-family: 'Josefin Sans', sans-serif;
-  color: white;
 }
