@@ -23,26 +23,37 @@
   @media screen and (max-width: 1000px) {
     font-size: 64px;
   }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 600px) {
     font-size: 48px;
   }
 }
 
 .terra-text-large {
-  font-size: 32px;
+  font-size: 64px;
 
   @media screen and (max-width: 1000px) {
-    font-size: 28px;
+    font-size: 48px;
   }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 600px) {
     font-size: 24px;
   }
 }
 
 .terra-text-normal {
-  font-size: 19px; // God forgive me...
+  font-size: 24px; // God forgive me...
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 600px) {
     font-size: 16px;
   }
+}
+
+.text-accent {
+  color: #ff7746;
+}
+
+.spicy-text {
+  background: linear-gradient(90deg, #D87EE7 0%, #FE47C0 50%, #F34949 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Jaldi', sans-serif;
 }

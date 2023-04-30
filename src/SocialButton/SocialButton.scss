@@ -1,13 +1,16 @@
 #social-button-github {
   mask: url('./icon-GitHub.png') no-repeat;
+  -webkit-mask: url('./icon-GitHub.png') no-repeat;
 }
 
 #social-button-linkedin {
   mask: url('./icon-LinkedIn.png') no-repeat;
+  -webkit-mask: url('./icon-LinkedIn.png') no-repeat;
 }
 
 #social-button-stackoverflow {
   mask: url('./icon-StackOverflow.png') no-repeat;
+  -webkit-mask: url('./icon-StackOverflow.png') no-repeat;
 }
 
 .social-button {

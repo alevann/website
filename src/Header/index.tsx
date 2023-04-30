@@ -5,14 +5,14 @@ import './Header.scss'
 
 const Welcome = () => (
   <div id='title-container'>
-    <Text size='large'>
+    <Text>
       Hey, I'm
     </Text>
     <Text type='heading' size='xLarge' className='spicy-text'>
       Alessandro
     </Text>
-    <Text id='job-title' size='large'>
-      Full Stack <Text elem='span' size='large' className='spicy-text'>Web Developer</Text>
+    <Text id='job-title' gutterBottom>
+      Full Stack <Text elem='span' className='spicy-text'>Web Developer</Text>
     </Text>
     <div id='socials'>
       <SocialButton

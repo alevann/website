@@ -1,0 +1,62 @@
+#terra {
+  mask: url('./TerraInactive.svg') no-repeat;
+  -webkit-mask: url('./TerraInactive.svg') no-repeat;
+
+  &:hover {
+    mask: url('./TerraActive.svg') no-repeat;
+    -webkit-mask: url('./TerraActive.svg') no-repeat;
+    background: linear-gradient(90deg, #93B62F 0%, #0DAA2F 100%);
+  }
+
+  @media screen and (max-width: 1000px) {
+    mask: url('./TerraActive.svg') no-repeat;
+    -webkit-mask: url('./TerraActive.svg') no-repeat;
+    background: linear-gradient(90deg, #93B62F 0%, #0DAA2F 100%);
+  }
+}
+
+#foobar {
+  mask: url('./FooBarInactive.svg') no-repeat;
+  -webkit-mask: url('./FooBarInactive.svg') no-repeat;
+
+  &:hover {
+    mask: url('./FooBarActive.svg') no-repeat;
+    -webkit-mask: url('./FooBarActive.svg') no-repeat;
+    background: linear-gradient(90deg, #01BAF5 0%, #0072FF 100%), #4D314A;
+  }
+
+  @media screen and (max-width: 1000px) {
+    mask: url('./FooBarActive.svg') no-repeat;
+    -webkit-mask: url('./FooBarActive.svg') no-repeat;
+    background: linear-gradient(90deg, #01BAF5 0%, #0072FF 100%), #4D314A;
+  }
+}
+
+#website {
+  mask: url('./WebsiteInactive.svg') no-repeat;
+  -webkit-mask: url('./WebsiteInactive.svg') no-repeat;
+
+  &:hover {
+    mask: url('./WebsiteActive.svg') no-repeat;
+    -webkit-mask: url('./WebsiteActive.svg') no-repeat;
+    background: linear-gradient(90deg, #FFD15B 0%, #E74B36 100%);
+  }
+
+  @media screen and (max-width: 1000px) {
+    mask: url('./WebsiteActive.svg') no-repeat;
+    -webkit-mask: url('./WebsiteActive.svg') no-repeat;
+    background: linear-gradient(90deg, #FFD15B 0%, #E74B36 100%);
+  }
+}
+
+.project-card {
+  height: 357px;
+  width: 250px;
+  background: #4D314A;
+  mask-size: contain;
+  transition: transform .2s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
