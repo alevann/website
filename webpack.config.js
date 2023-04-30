@@ -1,5 +1,6 @@
 const path = require('path')
 const babelConfig = require('./babel.config.json')
+const CopyPlugin = require("copy-webpack-plugin");
 
 const configs = {
   paths: {
@@ -48,6 +49,13 @@ module.exports = {
       }
     ]
   },
+  plugins: [
+    new CopyPlugin({
+      patterns: [
+        { from: 'public', to: '.' }
+      ]
+    })
+  ],
   devServer: {
     static: {
       directory: path.join(__dirname, 'public')
