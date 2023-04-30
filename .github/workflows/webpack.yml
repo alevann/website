@@ -26,6 +26,25 @@ jobs:
       run: |
         npm install
         npx webpack
+    
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v1
+      with:
+        path: ./public
+  
+  deploy:
+    needs: build
+  
+    permissions:
+      pages: write
+      id-token: write
+      
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
-    - name: Deploy GitHub Pages site
-      uses: actions/deploy-pages@v2.0.1
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy GitHub Pages site
+        id: deployment
+        uses: actions/deploy-pages@v2.0.1
