@@ -1,6 +1,10 @@
 import './Text.scss'
 
-type Props = Partial<HTMLElement> & {
+type RecursivePartial<T> = {
+  [P in keyof T]?: RecursivePartial<T[P]>;
+};
+
+type Props = RecursivePartial<HTMLElement> & {
   type?: 'heading' | 'body'
   elem?: 'h1' | 'h2' | 'span' | 'p'
   size?: 'xLarge' | 'large' | 'normal'

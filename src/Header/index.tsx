@@ -28,6 +28,9 @@ const Welcome = () => (
         social='StackOverflow'
       />
     </div>
+    <Text style={{ marginTop: '1rem' }}>
+      alesandrovnnn@gmail.com
+    </Text>
   </div>
 )
 

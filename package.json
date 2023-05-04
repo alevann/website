@@ -7,7 +7,7 @@
     "start": "webpack-dev-server"
   },
   "dependencies": {
-    "terra": "github:alevann/terra#396ffa3"
+    "terra": "github:alevann/terra#ef5e2da"
   },
   "devDependencies": {
     "@babel/core": "^7.21.4",

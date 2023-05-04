@@ -8,21 +8,20 @@ const About = () => (
       About Me
     </Text>
     <Text gutterBottom>
-      I could be described in three words: chaotic, creative, and curious.
-      I’m always on the next thing, thinking of something new,
-      or asking questions about how the things around me work.
+      As a lifelong learner, I've cultivated a deep sense of curiosity and a love of exploring new ideas and concepts.
+      Whether I'm working on a new project or simply going about my day, I'm constantly seeking out new challenges and opportunities to grow and learn.
     </Text>
     <Text gutterBottom>
-      I'm particularly versed on the MERN stack, and talking about MERN...
-      Did you know this website has been made using a React clone I made myself?
-      It's called Terra, <a href='#' className='text-accent'>check it out</a>!
-      Beware though, it's still a work in progress!
+      My passion for creativity and innovation is matched only by my love of problem-solving.
+      I thrive on the thrill of tackling difficult challenges and finding elegant solutions that push the boundaries of what's possible.
+    </Text>
+    <Text gutterBottom>
+      At times, my boundless enthusiasm and restless energy can be chaotic, but I believe that this is what makes me such an effective and innovative thinker.
+      I'm not content to simply accept things as they are - I want to understand them, challenge them, and ultimately make them better.
     </Text>
     <Text>
-      This text is a placeholder, I'd like two or three more lines of text.
-      Fun fact, my favourite animal is the pigeon!
-      Interesting thing: despite making up only a few % of the population,
-      100% of french "people" smell.
+      Whether I'm working independently or collaborating with others, I bring a spirit of curiosity, creativity, and a relentless drive for excellence to everything I do.
+      I'm always excited to take on new challenges and explore new ideas - after all, life is all about the journey, not just the destination.
     </Text>
   </div>
 )
@@ -39,13 +38,13 @@ const Projects = () => (
       </Text>
     </div>
     <div id='projects'>
-      <a href=''>
+      <a href='https://github.com/alevann/website'>
         <div id='website' className='project-card' />
       </a>
-      <a href=''>
+      <a href='https://github.com/alevann/foobar'>
         <div id='foobar' className='project-card' />
       </a>
-      <a href=''>
+      <a href='https://github.com/alevann/terra'>
         <div id='terra' className='project-card' />
       </a>
     </div>
