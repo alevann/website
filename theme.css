@@ -1,0 +1,19 @@
+:root {
+  --background: #F8F2EC;
+  --color: #727272;
+  --accent: #E67979;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--background);
+  color: var(--color);
+  font-family: "Athiti", sans-serif;
+  width: 100vw;
+  height: 100vh;
+}

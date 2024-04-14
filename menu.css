@@ -1,0 +1,48 @@
+.nav-menu-container {
+  font-family: "Antic Slab", serif;
+  height: 100%;
+}
+
+.nav-menu-container nav {
+  width: inherit;
+  height: inherit;
+}
+
+.nav-menu {
+  padding-left: min(20%, 300px);
+  padding-right: 1rem;
+  height: 100%;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.nav-menu:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 1px;
+  height: 100%;
+  z-index: -1;
+  background: linear-gradient(
+    to bottom,
+    transparent  15%,
+    var(--color) 25%,
+    var(--color) 75%,
+    transparent  85%
+  );
+}
+
+.nav-menu > .item {
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-align: end;
+}
+
+.nav-menu > .item.selected {
+  color: var(--accent);
+}
