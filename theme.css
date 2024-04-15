@@ -16,4 +16,24 @@ body {
   font-family: "Athiti", sans-serif;
   width: 100vw;
   height: 100vh;
+  display: flex;
+}
+
+.fancy {
+  font-family: "Aref Ruqaa", serif;
+}
+
+.title {
+  font-family: "Antic Slab", serif;
+}
+
+.page {
+  padding: 2rem;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.fill-icon {
+  fill: var(--color);
 }

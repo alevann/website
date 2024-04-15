@@ -1,0 +1,39 @@
+.hero {
+    font-size: 1.5rem;
+    margin-top: 20%;
+    margin-left: 5%;
+}
+
+.hero > .fancy {
+    color: var(--accent);
+    line-height: 40px;
+    font-size: 2.5rem;
+    margin-top: -1rem;
+}
+
+.description {
+    margin-top: 1rem;
+    margin-left: 5%;
+}
+
+#tree-bg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    object-fit: contain;
+    aspect-ratio: 1;
+    width: 60%;
+    margin-right: -8%;
+}
+
+.socials {
+    display: flex;
+    gap: 1rem;
+}
+
+.socials > * {
+    width: 48px;
+    height: 48px;
+    fill-rule: var(--accent);
+}
+

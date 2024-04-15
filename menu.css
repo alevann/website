@@ -1,15 +1,6 @@
-.nav-menu-container {
-  font-family: "Antic Slab", serif;
-  height: 100%;
-}
-
-.nav-menu-container nav {
-  width: inherit;
-  height: inherit;
-}
-
 .nav-menu {
-  padding-left: min(20%, 300px);
+  font-family: "Antic Slab", serif;
+  padding-left: min(10%, 300px);
   padding-right: 1rem;
   height: 100%;
   width: fit-content;
