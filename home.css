@@ -1,7 +1,10 @@
+.page {
+    padding-left: 5%;
+}
+
 .hero {
     font-size: 1.5rem;
     margin-top: 20%;
-    margin-left: 5%;
 }
 
 .hero > .fancy {
@@ -13,7 +16,6 @@
 
 .description {
     margin-top: 1rem;
-    margin-left: 5%;
 }
 
 #tree-bg {
@@ -22,18 +24,37 @@
     right: 0;
     object-fit: contain;
     aspect-ratio: 1;
-    width: 60%;
-    margin-right: -8%;
+    max-height: calc(100vh - 40%);
 }
 
 .socials {
+    margin-top: 1rem;
     display: flex;
     gap: 1rem;
 }
 
 .socials > * {
-    width: 48px;
-    height: 48px;
-    fill-rule: var(--accent);
+    width: 36px;
+    height: 36px;
+    background-color: var(--color);
 }
 
+.socials > *:hover {
+    background-color: var(--accent);
+}
+
+#git-hub {
+    mask: url("/assets/github-mark-white.svg") 0 0 / 36px 36px no-repeat;
+}
+
+#stack-overflow {
+    mask: url("/assets/stackoverflow-tile.svg") 0 0 / 36px 36px no-repeat;
+}
+
+#linked-in {
+    mask: url("/assets/linkedin-tile.svg") 0 0 / 36px 36px no-repeat;
+}
+
+#gmail {
+    mask: url("/assets/github-mark-white.svg") 0 0 / 36px 36px no-repeat;
+}

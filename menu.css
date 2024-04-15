@@ -1,7 +1,7 @@
 .nav-menu {
   font-family: "Antic Slab", serif;
-  padding-left: min(10%, 300px);
-  padding-right: 1rem;
+  padding-left: min(15%, 300px);
+  padding-right: 2rem;
   height: 100%;
   width: fit-content;
   display: flex;
