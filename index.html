@@ -18,7 +18,11 @@
 </head>
 <body>
 
-  <nav class="nav-menu">
+  <div class="menu-toggle-icon-container hide-on-big-screen">
+    <div id="menu-icon"></div>
+  </div>
+
+  <nav class="nav-menu hide-on-small-screen">
     <div class="item selected">
       <a>About Me</a>
     </div>
@@ -38,9 +42,11 @@
     </div>
     <div class="description">
       <p>
-        I am highly motivated, passionate about mathematics,<br />
-        software development, music, and nature.<br />
-        While I found my home in front-end development,<br />
+        I am highly motivated, passionate about mathematics,
+        software development, music, and nature.
+      </p>
+      <p>
+        While I found my home in front-end development,
         I am able to work across the stack to fit the needs of any team.
       </p>
     </div>
@@ -49,7 +55,11 @@
       <a href="https://stackoverflow.com/users/13183072/kil" target="_blank" id="stack-overflow"></a>
       <a href="https://www.linkedin.com/in/alessandro-vannini-a56a6418a/" target="_blank" id="linked-in"></a>
     </div>
-    <img id="tree-bg" src="/assets/tree-home.png" alt="" />
+    <picture>
+      <source media="(max-width: 560px)" srcset="/assets/tree-home-mobile.png">
+      <source media="(min-width: 561px)" srcset="/assets/tree-home.png">
+      <img id="tree-bg" src="/assets/tree-home.png" alt="" />
+    </picture>
   </div>
 
 </body>

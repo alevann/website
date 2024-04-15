@@ -7,6 +7,42 @@
     margin-top: 20%;
 }
 
+@media only screen and (max-width: 560px) {
+    .page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 1.5rem;
+    }
+
+    .hero {
+        margin-top: 5%;
+        width: 100%;
+    }
+
+    .hero > .title {
+        font-size: 1.25rem;
+    }
+
+    .hero > .fancy {
+        font-size: 1.5rem;
+    }
+
+    .socials {
+        display: none !important;
+    }
+
+    .description {
+        font-size: 1.2rem;
+        text-align: justify;
+    }
+
+    #tree-bg {
+        position: relative !important;
+    }
+}
+
 .hero > .fancy {
     color: var(--accent);
     line-height: 40px;
@@ -18,12 +54,17 @@
     margin-top: 1rem;
 }
 
+.description > p {
+    max-width: 400px;
+}
+
 #tree-bg {
     position: absolute;
     bottom: 0;
     right: 0;
     object-fit: contain;
     max-height: calc(100vh - 40%);
+    z-index: -1;
 }
 
 .socials {

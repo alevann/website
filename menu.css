@@ -37,3 +37,29 @@
 .nav-menu > .item.selected {
   color: var(--accent);
 }
+
+@media only screen and (max-width: 560px){
+  .hide-on-small-screen {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 560px){
+  .hide-on-big-screen {
+    display: none;
+  }
+}
+
+.menu-toggle-icon-container {
+  background-color: var(--background);
+  padding: 1rem;
+  margin-left: auto;
+  max-height: 64px;
+}
+
+#menu-icon {
+  height: 36px;
+  width: 36px;
+  background-color: var(--color);
+  mask: url("/assets/dots-3-vertical-svgrepo-com.svg") 0 0 / 36px 36px no-repeat;
+}
